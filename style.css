@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(207, 211, 217);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+/* Message CSS start */
+.poruka-success{
+    background-color: #47C98D;
+}
+.poruka-error{
+    background-color: #F64F5D;
+}
+
+/* Ovde ide dodatna klasa iz JS za boju poruke */
+.poruka{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 220px;
+    height: 46px;
+    border-radius: 5px;
+    /* background-color: #47C98D; */
+    box-shadow: 5px 4px 7px 0px rgba(201,201,201,1);
+}
+
+.poruka-iside{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    float: right;
+    height: 100%;
+    width: 216px;
+    background-color: whitesmoke;
+    border-radius:  5px ;
+    padding: 0 10px;
+}
+
+/* Ovde ide dodatna klasa iz JS za boju poruke */
+.poruka-iside .icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    color: white;
+    width: 26px;
+    height: 26px;
+    border-radius: 30px;
+    margin-right: 10px;
+    /* background-color: #47C98D; */
+    padding: 2px;
+}
+
+.poruka-iside .txt{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.poruka-iside .txt h3{
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 3px;
+}
+
+.poruka-iside .txt p{
+ font-size: 10px;
+ color: grey;
+}
+/* Message CSS End */
